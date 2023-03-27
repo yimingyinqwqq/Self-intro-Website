@@ -1,0 +1,169 @@
+/* refer from https://personal-portfolio.freecodecamp.rocks/styles.css */
+
+.App {
+  text-align: center;
+}
+
+.navbar-container {
+  position: static;
+  top: 0;
+  font-size: x-large;
+}
+
+.course-img {
+  max-width: 50%;
+  max-height: 50%;
+  align-self: center;
+}
+
+.card-container {
+  width: '400px';
+  height: '300px';
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.about-section-h {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
+
+.about-section-p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(231, 15, 15);
+}
+
+.courses-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.courses-section-h {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
+
+.courses-section-p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(231, 15, 15);
+}
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.projects-section-h {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
+
+.projects-section-p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(231, 15, 15);
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.skills-section-h {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
+
+.skills-section-p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(231, 15, 15);
+}
+
+/* contacts */
+
+.contacts-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  /* background: var(--main-gray); */
+}
+
+.contacts-section-header > h2 {
+  font-size: 6rem;
+}
+
+@media (max-width: 28.75em) {
+  .contact-section-header > h2 {
+    font-size: 4rem;
+  }
+}
+
+.contacts-section-header > p {
+  font-style: italic;
+}
+
+.contacts-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.contacts-details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #b3b1b1;
+  transition: transform 0.3s ease-out;
+}
+
+.contacts-details:hover {
+  transform: translateY(4px);
+}
