@@ -1,4 +1,4 @@
-import React, { Component, useRef } from 'react';
+import React, { useRef } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -25,7 +25,7 @@ const NavBar = () => {
 
   return (
     <>
-      <Navbar className='navbar-container' bg="dark" variant="dark" expand='lg'>
+      <Navbar className='navbar-container' variant="dark" expand='lg'>
         <Container>
           <Nav className="me-auto">
             <Nav.Link href="#about-section" onClick={() => scrollToSection(about)}> About </Nav.Link>
