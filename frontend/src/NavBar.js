@@ -10,7 +10,6 @@ import Courses from './Courses';
 import Contacts from './Contacts';
 
 const NavBar = () => {
-  const about = useRef(null);
   const courses = useRef(null);
   const projects = useRef(null);
   const skills = useRef(null);
@@ -28,7 +27,6 @@ const NavBar = () => {
       <Navbar className='navbar-container' variant="dark" expand='lg'>
         <Container>
           <Nav className="me-auto">
-            <Nav.Link href="#about-section" onClick={() => scrollToSection(about)}> About </Nav.Link>
             <Nav.Link href="#courses-section" onClick={() => scrollToSection(courses)}> Courses </Nav.Link>
             <Nav.Link href="#projects-section" onClick={() => scrollToSection(projects)}> Projects </Nav.Link>
             <Nav.Link href="#skills-section" onClick={() => scrollToSection(skills)}> Skills </Nav.Link>
@@ -37,7 +35,7 @@ const NavBar = () => {
         </Container>
       </Navbar>
 
-      <About ref={about}/>
+      <About />
       <Courses ref={courses}/>
       <Projects ref={projects}/>
       <Skills ref={skills}/>

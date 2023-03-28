@@ -5,12 +5,12 @@ import { HiOutlineMail } from 'react-icons/hi'
 const Contacts = (props, scrollRef) => {
     return (
         <div ref={scrollRef} className='contacts-section'>
-            <br/><br/><br/><br/>
+            <br /><br /><br /><br />
             <div class="contacts-section-header">
                 <h2> Contact me </h2>
             </div>
 
-            <br/><br/><br/><br/>
+            <br /><br /><br /><br />
 
             <div class="contacts-links">
                 <a
@@ -21,7 +21,7 @@ const Contacts = (props, scrollRef) => {
                     class="btn contacts-details"
                 ><FaGithub /> GitHub </a
                 >
-                <a href="/cdn-cgi/l/email-protection#fa9f829b978a969fba9f829b978a969fd4999597" 
+                <a href="mailto:yimingy9@illinois.edu"
                     class="btn contacts-details"
                 > <HiOutlineMail /> Send an email </a
                 >
