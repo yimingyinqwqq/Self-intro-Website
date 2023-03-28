@@ -8,8 +8,7 @@ import Row from 'react-bootstrap/Row';
 const Courses = (props, scrollRef) => {
     return (
         <div ref={scrollRef} className='courses-section'>
-            <br /><br /><br /><br /><br /><br />
-            <h1 className='courses-section-h'> Important Courses I took </h1>
+            <h1 className='courses-section-h' style={{marginTop: "10%"}}> Important Courses I took </h1>
             <br /><br /><br /><br />
 
             <Row className='courses-section'>

@@ -5,8 +5,7 @@ import { HiOutlineMail } from 'react-icons/hi'
 const Contacts = (props, scrollRef) => {
     return (
         <div ref={scrollRef} className='contacts-section'>
-            <br /><br /><br /><br />
-            <div class="contacts-section-header">
+            <div class="contacts-section-header" style={{marginTop: "10%"}}>
                 <h2> Contact me </h2>
             </div>
 
