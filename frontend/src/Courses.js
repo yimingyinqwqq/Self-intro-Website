@@ -63,9 +63,9 @@ const Courses = (props, scrollRef) => {
                             <br />
                             <Card.Img variant="top" className='course-img' src={require("./imgs/cs415.jpg")} />
                             <Card.Body>
-                                <Card.Title> CS 415: Game Development </Card.Title>
+                                <Card.Title> 15619: Cloud Computing </Card.Title>
                                 <Card.Text>
-                                    UE4 engine for developing 3D games; Fundamental math behind game engines
+                                    Deployed docker images, crafted helm charts, adjusted settings for resource group, load balancer, and autoscaling group, and written ETL process for data processing 
                                 </Card.Text>
                             </Card.Body>
                         </Card>

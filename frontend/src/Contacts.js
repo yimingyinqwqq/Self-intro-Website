@@ -20,7 +20,7 @@ const Contacts = (props, scrollRef) => {
                     class="btn contacts-details"
                 ><FaGithub /> GitHub </a
                 >
-                <a href="mailto:yimingy9@illinois.edu"
+                <a href="mailto:yimingyi@andrew.cmu.edu"
                     class="btn contacts-details"
                 > <HiOutlineMail /> Send an email </a
                 >
