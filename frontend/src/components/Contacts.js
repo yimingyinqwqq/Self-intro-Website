@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi'
 
 const Contacts = (props, scrollRef) => {
@@ -19,6 +19,14 @@ const Contacts = (props, scrollRef) => {
                     rel="noreferrer"
                     class="btn contacts-details"
                 ><FaGithub /> GitHub </a
+                >
+                <a
+                    id="profile-link"
+                    href="https://www.linkedin.com/in/yiming-yin-113855280/"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="btn contacts-details"
+                ><FaLinkedin /> LinkedIn </a
                 >
                 <a href="mailto:yimingyi@andrew.cmu.edu"
                     class="btn contacts-details"

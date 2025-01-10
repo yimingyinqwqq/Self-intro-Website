@@ -7,12 +7,12 @@ import Row from 'react-bootstrap/Row';
 const Projects = (props, scrollRef) => {
     return (
         <div ref={scrollRef} className='projects-section'>
-            <h1 className='projects-section-h'> Here are my projects </h1>
+            <h1 className='projects-section-h'> My projects </h1>
             <br/><br/>
 
             <Row style={{ justifyContent: 'center' }}>
                 <Card style={{ width: '30%', height: '90%' }}>
-                    <Card.Img variant="top" style={{ width: '100%', height: '50%', alignSelf: 'center' }} src={require("./imgs/splitter_project.png")} />
+                    <Card.Img variant="top" style={{ width: '100%', height: '50%', alignSelf: 'center' }} src={require("imgs/splitter_project.png")} />
                     <Card.Body>
                         <Card.Title> Splitter Web Application </Card.Title>
                         <Card.Text>
@@ -23,7 +23,7 @@ const Projects = (props, scrollRef) => {
                 </Card>
 
                 <Card style={{ width: '30%', height: '90%' }}>
-                    <Card.Img variant="top" style={{ width: '70%', height: '50%', alignSelf: 'center' }} src={require("./imgs/cs425projects.jpg")} />
+                    <Card.Img variant="top" style={{ width: '70%', height: '50%', alignSelf: 'center' }} src={require("imgs/cs425projects.jpg")} />
                     <Card.Body>
                         <Card.Title> Distributed System Projects </Card.Title>
                         <Card.Text>
@@ -34,7 +34,7 @@ const Projects = (props, scrollRef) => {
                 </Card>
 
                 <Card style={{ width: '30%', height: '90%' }}>
-                    <Card.Img variant="top" style={{ width: '70%', height: '50%', alignSelf: 'center' }} src={require("./imgs/wcs_project.png")} />
+                    <Card.Img variant="top" style={{ width: '70%', height: '50%', alignSelf: 'center' }} src={require("imgs/wcs_project.png")} />
                     <Card.Body>
                         <Card.Title> WCS Project </Card.Title>
                         <Card.Text>

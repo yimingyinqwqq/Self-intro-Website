@@ -1,5 +1,5 @@
 // import { useRef } from 'react';
-import NavBar from './NavBar';
+import NavBar from 'components/NavBar';
 
 import './App.css';
 
