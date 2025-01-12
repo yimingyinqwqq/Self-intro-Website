@@ -2,7 +2,6 @@ import React from 'react';
 
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 const Courses = (props, scrollRef) => {
